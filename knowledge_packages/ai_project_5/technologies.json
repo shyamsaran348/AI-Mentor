@@ -1,0 +1,11 @@
+{
+    "Overview": "# Technologies",
+    "Programming Language": "* Python",
+    "Natural Language Processing (NLP)": "* NLTK\n* spaCy\n* TextBlob\n* Transformers (Hugging Face)",
+    "AI & Machine Learning": "* Scikit-Learn\n* TensorFlow\n* PyTorch",
+    "Data Processing": "* Pandas\n* NumPy",
+    "Visualization": "* Matplotlib\n* Seaborn\n* Plotly",
+    "Dashboard Development": "* Streamlit\n* Flask",
+    "Cloud & Development": "* Google Colab\n* GitHub",
+    "Google Workspace Integration": "* Google Drive\n* Google Sheets\n* Google Forms\n* Google Sites\n* Google Meet\n* Google Classroom"
+}

@@ -1,0 +1,88 @@
+AI CAPSTONE PROJECT 6
+AI-POWERED CROP DISEASE DETECTION
+ 
+INTRODUCTION
+Agriculture plays a critical role in ensuring food security and supporting economies worldwide. One of the major challenges faced by farmers is the timely identification and treatment of crop diseases. Plant diseases can significantly reduce crop yield, affect product quality, and result in substantial economic losses. Traditional disease identification often requires expert knowledge, making early diagnosis difficult for many farmers, particularly in remote regions.
+Artificial Intelligence and Computer Vision technologies offer opportunities to automate crop health monitoring by analyzing plant images and identifying disease symptoms. This project focuses on exploring how AI can assist farmers in detecting crop diseases and supporting informed agricultural decision-making.
+PROBLEM STATEMENT
+Crop diseases continue to impact agricultural productivity and profitability across the world. Farmers often face difficulties in identifying diseases at an early stage, leading to delayed treatment and increased crop damage. Access to agricultural experts may also be limited in certain regions.
+There is a growing need for intelligent systems capable of analyzing crop images, identifying disease symptoms, and assisting farmers in monitoring plant health more effectively.
+How can an AI-powered crop disease detection system be developed to identify plant diseases from images and support timely agricultural interventions?
+SCOPE OF WORK
+In Scope
+Collection and preprocessing of crop image datasets.
+Disease identification using image analysis.
+Classification of healthy and diseased crops.
+Visualization of crop health information.
+Development of a farmer-friendly interface.
+AI model performance evaluation.
+Integration with Google tools for collaboration and reporting.
+
+Out of Scope
+Automated pesticide application.
+IoT-based farm automation.
+Drone-based spraying systems.
+Real-time agricultural machinery control.
+Commercial agricultural advisory services.
+SUGGESTED TECHNOLOGIES
+Programming Language
+Python
+
+AI & Machine Learning
+TensorFlow
+Keras
+PyTorch
+
+Computer Vision
+OpenCV
+YOLO (Optional)
+
+Deep Learning
+CNN
+MobileNet
+ResNet
+
+Data Processing
+Pandas
+NumPy
+
+Visualization
+Matplotlib
+Seaborn
+Plotly
+
+Dashboard Development
+Streamlit
+Flask
+
+Cloud & Development
+Google Colab
+GitHub
+
+Google Workspace Integration
+Google Drive
+Google Sheets
+Google Forms
+Google Sites
+Google Meet
+Google Classroom
+
+Suggested Datasets
+PlantVillage Dataset
+Kaggle Crop Disease Datasets
+Agricultural Research Datasets
+EXPECTED OUTCOMES
+AI-powered crop disease detection prototype.
+Plant disease classification model.
+User-friendly monitoring interface.
+Crop health reports and visualizations.
+Performance evaluation results.
+Project documentation and presentation.
+Source code repository and project resources.
+LEARNING OUTCOMES
+Understanding of AI applications in agriculture.
+Experience with image classification techniques.
+Practical exposure to computer vision systems.
+Knowledge of agricultural technology solutions.
+Skills in model deployment and visualization.
+

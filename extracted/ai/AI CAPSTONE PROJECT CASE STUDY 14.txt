@@ -1,0 +1,92 @@
+AI CAPSTONE PROJECT 14
+ESPORTS AI BOT FOR ADAPTIVE GAMEPLAY
+ 
+INTRODUCTION
+The gaming and esports industry has experienced tremendous growth over the past decade, attracting millions of players and spectators worldwide. Modern games increasingly rely on Artificial Intelligence to create engaging gameplay experiences, intelligent opponents, adaptive difficulty levels, and personalized interactions. Traditional game bots often follow predefined rules and scripted behaviors, making them predictable and less challenging for experienced players.
+Artificial Intelligence enables game agents to learn from player actions, adapt strategies, and make intelligent decisions in dynamic gaming environments. This project focuses on exploring how AI can be used to develop adaptive esports bots capable of analyzing gameplay situations and improving performance through continuous learning and decision-making.
+PROBLEM STATEMENT
+Many game bots rely on fixed strategies and scripted decision-making, resulting in repetitive and predictable gameplay experiences. As player skill levels vary significantly, there is a growing need for intelligent opponents capable of adapting their behavior based on gameplay conditions and player actions.
+Game developers and researchers require AI systems that can analyze game states, learn from interactions, and dynamically adjust strategies to provide engaging and challenging gameplay experiences.
+How can an AI-powered esports bot be developed to analyze gameplay situations, adapt strategies, and provide intelligent decision-making in competitive gaming environments?
+SCOPE OF WORK
+In Scope
+AI-based game agent development.
+Adaptive gameplay and decision-making.
+Strategy analysis and optimization.
+Player behavior analysis.
+Reinforcement learning or rule-based game intelligence.
+Game performance monitoring and analytics.
+Dashboard development for gameplay statistics.
+Integration with Google tools for collaboration and reporting.
+
+Out of Scope
+Commercial game development.
+Online multiplayer server deployment.
+Professional esports tournament integration.
+Anti-cheat system development.
+Real-money gaming platforms.
+SUGGESTED TECHNOLOGIES
+Programming Language
+Python
+
+AI & Machine Learning
+TensorFlow
+PyTorch
+Scikit-Learn
+
+Reinforcement Learning
+Stable-Baselines3
+OpenAI Gym
+RLlib
+
+Game Development & Simulation
+Unity ML-Agents
+Pygame
+Godot Engine
+Minecraft Education APIs (Optional)
+
+Data Processing
+Pandas
+NumPy
+
+Visualization
+Matplotlib
+Plotly
+Seaborn
+
+Dashboard Development
+Streamlit
+Flask
+
+Cloud & Development
+Google Colab
+GitHub
+
+Google Workspace Integration
+Google Drive
+Google Sheets
+Google Forms
+Google Sites
+Google Meet
+Google Classroom
+
+Suggested Datasets
+OpenAI Gym environments
+Game telemetry datasets
+Esports analytics datasets
+Custom gameplay logs
+EXPECTED OUTCOMES
+AI-powered esports bot prototype.
+Adaptive gameplay decision-making system.
+Reinforcement learning or intelligent strategy model.
+Gameplay analytics dashboard.
+Performance evaluation and comparison reports.
+Project documentation and presentation.
+Source code repository and supporting resources.
+LEARNING OUTCOMES
+Understanding of Game AI concepts.
+Experience with reinforcement learning techniques.
+Knowledge of adaptive decision-making systems.
+Practical exposure to esports analytics.
+Skills in developing intelligent gaming agents.
+

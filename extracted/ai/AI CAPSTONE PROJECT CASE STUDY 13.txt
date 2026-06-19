@@ -1,0 +1,93 @@
+AI CAPSTONE PROJECT 13
+PROJECTED REALITY WITH AI FOR SCIENCE SIMULATIONS
+ 
+INTRODUCTION
+Understanding scientific concepts often requires students to visualize complex systems, processes, and interactions that may not be easily demonstrated using traditional teaching methods. Topics such as astronomy, molecular structures, physics experiments, and biological processes can be difficult to comprehend through textbooks and static images alone. Modern educational technologies are increasingly being used to create immersive learning environments that enhance understanding and engagement.
+Projected Reality combines digital projection technologies with Artificial Intelligence to create interactive educational experiences where users can engage with simulated environments through gestures, objects, or movements. This project focuses on exploring how AI can enhance projected reality systems to support science education through interactive and immersive simulations.
+PROBLEM STATEMENT
+Many scientific concepts involve abstract processes that are challenging for students to visualize and understand using conventional learning resources. Traditional classroom demonstrations may be limited by cost, safety concerns, or the availability of physical equipment.
+Educational institutions require innovative solutions that can provide interactive visual experiences, improve learner engagement, and support a deeper understanding of scientific concepts.
+How can an AI-powered projected reality system be developed to create interactive science simulations that enhance student engagement, visualization, and learning outcomes?
+SCOPE OF WORK
+In Scope
+Interactive science simulations.
+Object and gesture-based interactions.
+Projection-based educational experiences.
+User engagement monitoring.
+Educational content visualization.
+AI-powered interaction recognition.
+Dashboard development for analytics and reporting.
+Integration with Google tools for collaboration and documentation.
+
+Out of Scope
+Commercial projector hardware development.
+Full-scale Virtual Reality systems.
+Institutional classroom infrastructure deployment.
+Development of custom projection hardware.
+Large-scale educational platform development.
+SUGGESTED TECHNOLOGIES
+Programming Language
+Python
+JavaScript
+
+AI & Machine Learning
+TensorFlow
+PyTorch
+Scikit-Learn
+
+Computer Vision
+OpenCV
+MediaPipe
+YOLO
+
+Interactive Simulation Tools
+Unity
+Pygame
+Three.js
+Processing
+
+Data Processing
+Pandas
+NumPy
+
+Visualization
+Plotly
+Matplotlib
+
+Dashboard Development
+Streamlit
+Flask
+
+Cloud & Development
+Google Colab
+GitHub
+
+Google Workspace Integration
+Google Drive
+Google Sheets
+Google Forms
+Google Sites
+Google Meet
+Google Classroom
+
+Suggested Datasets
+Educational object recognition datasets
+Gesture recognition datasets
+Open science visualization resources
+Custom educational simulation datasets
+EXPECTED OUTCOMES
+AI-powered projected reality prototype.
+Interactive science simulation platform.
+Gesture or object recognition system.
+User interaction analytics dashboard.
+Educational visualization demonstrations.
+Performance evaluation report.
+Project documentation and presentation.
+Source code repository and supporting resources.
+LEARNING OUTCOMES
+Understanding of projected reality technologies.
+Experience with AI-driven interactive systems.
+Knowledge of educational visualization techniques.
+Practical exposure to computer vision applications.
+Skills in designing immersive learning environments.
+

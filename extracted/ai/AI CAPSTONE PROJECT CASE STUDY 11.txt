@@ -1,0 +1,97 @@
+AI CAPSTONE PROJECT 11
+AI NAVIGATION SYSTEM FOR SELF-DRIVING CARS
+ 
+INTRODUCTION
+Autonomous vehicles represent one of the most transformative applications of Artificial Intelligence in modern transportation. Self-driving systems aim to improve road safety, reduce traffic congestion, enhance mobility, and support efficient transportation networks. These systems rely on intelligent decision-making, environmental perception, and navigation capabilities to operate without constant human intervention.
+Artificial Intelligence enables vehicles to analyze surroundings, identify obstacles, plan routes, and make driving decisions based on real-time data. This project focuses on exploring how AI can be applied to autonomous navigation systems and how intelligent vehicles can safely navigate dynamic environments.
+PROBLEM STATEMENT
+Road transportation involves complex and constantly changing environments where drivers must continuously make decisions based on traffic conditions, road layouts, pedestrians, and other vehicles. Human errors remain one of the leading causes of road accidents worldwide.
+There is a growing need for intelligent navigation systems capable of perceiving their surroundings, planning safe routes, and making informed driving decisions while adapting to changing road conditions.
+How can an AI-powered navigation system be developed to enable autonomous vehicles to perceive their environment, plan routes, and navigate safely in dynamic driving scenarios?
+SCOPE OF WORK
+In Scope
+Autonomous navigation and route planning.
+Obstacle detection and avoidance.
+Environmental perception and analysis.
+Traffic sign and lane recognition.
+Path planning and decision-making.
+Navigation performance monitoring.
+Integration with simulation environments.
+Integration with Google tools for collaboration and reporting.
+
+Out of Scope
+Commercial autonomous vehicle deployment.
+Real-world road testing on public roads.
+Vehicle manufacturing and hardware design.
+Autonomous fleet management.
+Integration with government transportation systems.
+SUGGESTED TECHNOLOGIES
+Programming Language
+Python
+
+AI & Machine Learning
+TensorFlow
+PyTorch
+Scikit-Learn
+
+Computer Vision
+OpenCV
+YOLO
+MediaPipe
+
+Reinforcement Learning (Optional)
+Stable-Baselines3
+OpenAI Gym
+
+Simulation Platforms
+CARLA Simulator
+AirSim
+Gazebo
+SUMO
+
+Data Processing
+Pandas
+NumPy
+
+Visualization
+Matplotlib
+Plotly
+Seaborn
+
+Dashboard Development
+Streamlit
+Flask
+
+Cloud & Development
+Google Colab
+GitHub
+
+Google Workspace Integration
+Google Drive
+Google Sheets
+Google Forms
+Google Sites
+Google Meet
+Google Classroom
+
+Suggested Datasets
+Udacity Self-Driving Car Dataset
+KITTI Dataset
+BDD100K Dataset
+CARLA Simulation Data
+EXPECTED OUTCOMES
+AI-powered autonomous navigation prototype.
+Obstacle detection and route planning system.
+Simulation-based self-driving vehicle demonstration.
+Navigation analytics and performance reports.
+Interactive dashboard for monitoring vehicle behavior.
+Performance evaluation report.
+Project documentation and presentation.
+Source code repository and supporting resources.
+LEARNING OUTCOMES
+Understanding of autonomous vehicle technologies.
+Experience with computer vision and path planning.
+Knowledge of reinforcement learning applications.
+Practical exposure to intelligent transportation systems.
+Skills in simulation-based AI development.
+

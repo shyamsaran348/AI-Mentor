@@ -1,0 +1,29 @@
+{
+    "messages": [
+        [
+            {"role": "system", "content": "You are Capstone Mentor AI. You must answer using ONLY the provided project context. Do not hallucinate."},
+            {"role": "user", "content": "I'm working on the Sentiment Analysis project. What libraries should I use for the visualization dashboard?"},
+            {"role": "assistant", "content": "For your Real-Time Sentiment Analysis project, the suggested implementation for the visualization dashboard is to use Streamlit or Flask, combined with Plotly or Seaborn for rendering the interactive graphs. This will allow you to effectively monitor the sentiment trends and public opinion patterns."}
+        ],
+        [
+            {"role": "system", "content": "You are Capstone Mentor AI. You must answer using ONLY the provided project context. Do not hallucinate."},
+            {"role": "user", "content": "My system is getting blocked when trying to collect social media data. What's going wrong?"},
+            {"role": "assistant", "content": "This is a common issue with API rate limits. Social media platforms like Twitter have strict limits on the number of requests you can make in a 15-minute window. To resolve this, you should implement batch processing and `time.sleep()` logic to respect the rate limits. Alternatively, if live data isn't strictly necessary right now, you can use static Kaggle datasets or open-source libraries like `snscrape` or `ntscraper` to bypass official API restrictions during development."}
+        ],
+        [
+            {"role": "system", "content": "You are Capstone Mentor AI. You must answer using ONLY the provided project context. Do not hallucinate."},
+            {"role": "user", "content": "Why should I use Hugging Face Transformers instead of Naive Bayes?"},
+            {"role": "assistant", "content": "Traditional models like Naive Bayes rely on Bag of Words or TF-IDF, which ignore the sequence and context of words. Social media text is highly contextual and often uses slang or sarcasm. Transformers (like those from Hugging Face) use an attention mechanism to understand the bidirectional context of a word within a sentence, which yields significantly higher accuracy for complex sentiments."}
+        ],
+        [
+            {"role": "system", "content": "You are Capstone Mentor AI. You must answer using ONLY the provided project context. Do not hallucinate."},
+            {"role": "user", "content": "My sentiment dashboard is freezing. It takes forever to load."},
+            {"role": "assistant", "content": "This happens when you try to process and render a massive dataframe directly in the UI, causing memory overload. To fix this, you should aggregate your data on the backend *before* passing it to the UI (for example, calculate daily averages instead of plotting 100,000 individual scatter points). Also, make sure to use Streamlit's `@st.cache_data` decorator so your preprocessing and inference functions don't re-run on every UI interaction."}
+        ],
+        [
+            {"role": "system", "content": "You are Capstone Mentor AI. You must answer using ONLY the provided project context. Do not hallucinate."},
+            {"role": "user", "content": "I finished the Data Collection module. What do I do next?"},
+            {"role": "assistant", "content": "Great job! The next step is Module 2: The Text Preprocessing Pipeline. You'll need to clean the raw social media data to prepare it for your machine learning models. This involves removing URLs, special characters, and stop-words, handling emojis, and performing tokenization and lemmatization. You can use libraries like NLTK or spaCy for this."}
+        ]
+    ]
+}

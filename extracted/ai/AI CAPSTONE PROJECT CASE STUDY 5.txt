@@ -1,0 +1,80 @@
+AI CAPSTONE PROJECT 5
+REAL-TIME SENTIMENT ANALYSIS OF SOCIAL MEDIA
+ 
+INTRODUCTION
+Social media platforms have become one of the primary channels through which individuals express opinions, share experiences, and discuss current events. Organizations, governments, businesses, and researchers increasingly rely on social media data to understand public perception, monitor brand reputation, and identify emerging trends. However, the massive volume of content generated every day makes manual analysis impractical.
+Artificial Intelligence and Natural Language Processing (NLP) enable automated analysis of large amounts of textual data, helping organizations identify sentiments, opinions, and emotional trends in real time. This project focuses on exploring how AI can be used to analyze social media content and provide meaningful insights into public sentiment.
+PROBLEM STATEMENT
+Organizations often struggle to understand public opinion due to the vast amount of social media content generated daily. Manually reviewing posts, comments, and discussions is time-consuming and inefficient. Businesses and decision-makers require intelligent systems capable of analyzing large-scale textual data and identifying sentiment patterns quickly and accurately.
+There is a growing need for AI-powered solutions that can process social media data, classify sentiments, and provide actionable insights based on public opinion trends.
+How can an AI-based sentiment analysis system be developed to analyze social media content and identify public sentiment in an accurate and efficient manner?
+SCOPE OF WORK
+In Scope
+Collection and preprocessing of social media text data.
+Sentiment classification and analysis.
+Identification of positive, negative, and neutral opinions.
+Trend analysis and visualization.
+Real-time or near real-time sentiment monitoring.
+Dashboard development for displaying insights.
+Integration with Google tools for reporting and collaboration.
+
+Out of Scope
+Social media account management.
+Automated content generation or posting.
+Political campaign management.
+User profiling and surveillance.
+Direct integration with commercial social media platforms requiring paid access.
+SUGGESTED TECHNOLOGIES
+Programming Language
+Python
+
+AI & Machine Learning
+Scikit-Learn
+TensorFlow
+PyTorch
+
+Natural Language Processing
+NLTK
+spaCy
+TextBlob
+Transformers
+Hugging Face
+
+Data Processing
+Pandas
+NumPy
+
+Visualization
+Matplotlib
+Seaborn
+Plotly
+
+Dashboard Development
+Streamlit
+Flask
+
+Cloud & Development
+Google Colab
+GitHub
+
+Google Workspace Integration
+Google Drive
+Google Sheets
+Google Forms
+Google Sites
+Google Meet
+Google Classroom
+EXPECTED OUTCOMES
+AI-powered sentiment analysis prototype.
+Automated sentiment classification system.
+Interactive dashboard for sentiment monitoring.
+Visualization of trends and public opinion patterns.
+Performance evaluation report.
+Documentation and project presentation.
+Source code repository and supporting resources.
+LEARNING OUTCOMES
+Understanding of Natural Language Processing techniques.
+Experience with text preprocessing and sentiment classification.
+Knowledge of social media analytics.
+Development of AI-driven dashboards.
+Practical exposure to real-world NLP applications.

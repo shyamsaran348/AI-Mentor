@@ -1,0 +1,132 @@
+Cybersecurity
+Curriculum for Final
+Year and Graduated
+Students for College
+Graduates / Final Year
+Gnaniyar Zubair A2000 India
+Students
+Program Structure:
+• Target Learners: Final-year or graduated students in Computer Science or
+related fields
+• Duration: 300 Hours
+o Theory: 100 Hours
+o Practical: 200 Hours
+▪ 40 Hours at Central Hub (Advanced Labs)
+▪ 160 Hours at Outreach Canters (Basic Infrastructure)
+Curriculum Summary Table:
+Module Module Name Theory Practical Hub Outreach Tools / Certifications
+No. (hrs) (hrs) (hrs) (hrs)
+1 Cybersecurity 10 10 2 8 MITRE ATT&CK,
+Fundamentals & OWASP
+Threats
+2 Networking & 10 20 5 15 Wireshark, Packet
+Protocol Tracer
+Security
+3 Linux & Windows 8 15 4 11 Kali Linux, PowerShell
+Security
+Essentials
+4 Cryptography & 10 10 3 7 OpenSSL, GPG, TLS
+Quantum-safe Labs
+Security
+5 Ethical Hacking 10 25 6 19 Burp Suite, OWASP
+& Web App ZAP, Metasploit
+Security
+6 IoT & Embedded 10 20 6 14 Arduino, Flipper Zero,
+Device Security Yardstick One
+7 Cloud Security & 12 18 6 12 AWS IAM, Azure Sec.
+DevSecOps Center, Docker,
+GitHub
+8 SOC Tools & 10 20 8 12 Splunk, Elastic SIEM,
+Threat OSINT Tools
+Intelligence
+9 AI-Driven 10 15 4 11 ML toolkits, Darktrace
+Security & Zero (demo), Conceptual
+Trust Labs
+Architecture
+10 Red Team vs 4 26 6 20 CTFs, LAN Turtle,
+Blue Team Nessus
+Simulation
+11 Digital Forensics 8 16 4 12 FTK Imager, Autopsy,
+& Incident Volatility
+Response
+12 Capstone 2 25 6 19 Multi-tool Integration
+Project (Real-
+World
+Simulation)
+TOTAL 100 200 50 150
+Detailed Module Breakdown
+Module 1: Cybersecurity Fundamentals & Threat Landscape
+• Theory: CIA triad, types of threats, OWASP Top 10, threat actors
+• Practical: Simulate malware infection, analyze phishing emails
+• Outcome: Understand threat modeling, perform basic risk assessments
+• Tools: MITRE ATT&CK, OWASP Juice Shop
+• Certs Aligned: CompTIA Security+
+Module 2: Networking & Protocol Security
+• Theory: TCP/IP, ARP poisoning, DNS spoofing, VLANs, NAT
+• Practical: Packet analysis, basic IDS configuration
+• Outcome: Network traffic inspection, secure communication setup
+• Tools: Wireshark, Cisco ASA Emulator, pfSense
+Module 3: Linux & Windows Security Essentials
+• Theory: File permissions, system hardening, user management
+• Practical: Audit logs, detect privilege escalation
+• Outcome: Harden operating systems, understand logs
+• Tools: Auditd, Event Viewer, PowerShell Scripts
+Module 4: Cryptography & Quantum-safe Security
+• Theory: AES, RSA, Elliptic Curve, Quantum threats
+• Practical: Encrypt/decrypt files, SSL cert creation
+• Outcome: Data encryption skills and PKI concepts
+• Tools: OpenSSL, Keytool
+• Certs: Security+ crypto section
+Module 5: Ethical Hacking & Web Application Security
+• Theory: Reconnaissance, SQLi, XSS, CSRF, Buffer Overflow
+• Practical: Exploit web apps, capture flags
+• Outcome: Identify and exploit web vulnerabilities
+• Tools: Metasploit, Burp Suite, OWASP ZAP
+• Certs: CEH v12
+Module 6: IoT & Embedded Device Security
+• Theory: IoT architecture, attack surfaces, device authentication
+• Practical: Hack Raspberry Pi, BLE spoofing
+• Outcome: Secure IoT systems and analyze embedded vulnerabilities
+• Tools: Raspberry Pi, Arduino, Flipper Zero
+Module 7: Cloud Security & DevSecOps
+• Theory: IAM, Shared Responsibility, Container Security
+• Practical: Configure cloud roles, scan code
+• Outcome: Cloud configuration and DevSecOps basics
+• Tools: AWS Console, Docker, GitHub, OWASP Dependency-Check
+• Certs: AWS Certified Security – Foundational
+Module 8: SOC Tools & Threat Intelligence
+• Theory: SOC roles, log aggregation, IOC analysis
+• Practical: Build SIEM dashboards, threat hunting
+• Outcome: Detect intrusions, analyze incidents
+• Tools: Splunk, ELK Stack, VirusTotal, Shodan
+• Certs: Cisco CyberOps Associate
+Module 9: AI-Driven Security & Zero Trust Architecture
+• Theory: AI in anomaly detection, Zero Trust principles
+• Practical: Create basic ML- based detection
+• Outcome: Apply AI to security, design Zero Trust flow
+• Tools: Jupyter, IBM Watson demos
+Module 10: Red vs Blue Team Simulation
+• Practical Only:
+o Red: Phishing attack, reverse shells, lateral movement
+o Blue: SOC alert response, log correlation
+• Outcome: Offensive and defensive coordination
+• Tools: Kali Linux, LAN Turtle, Splunk
+Module 11: Digital Forensics & Incident Response
+• Theory: Chain of custody, forensic triage, IR planning
+• Practical: Memory analysis, deleted file recovery
+• Outcome: Execute incident response plan
+• Tools: FTK Imager, Autopsy, Volatility
+Module 12: Capstone Project
+• Goal: Simulate securing a company infrastructure or responding to a
+breach
+• Tasks: Network hardening, attack simulation, write IR report
+• Outcome: Demonstrate holistic cybersecurity application
+• Presentation to Evaluation Panel
+Tools & Platforms
+Tool Type Examples
+Offensive Tools Kali Linux, Metasploit, Nessus, LAN Turtle
+Defensive Tools Splunk, Elastic SIEM, OSSEC
+IoT/Embedded Flipper Zero, Arduino, Raspberry Pi
+Cloud Tools AWS IAM, Azure Portal, Docker
+Crypto Tools OpenSSL, GnuPG
+Forensics Tools FTK Imager, Volatility, Autopsy

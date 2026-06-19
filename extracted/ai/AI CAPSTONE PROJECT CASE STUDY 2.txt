@@ -1,0 +1,87 @@
+AI CAPSTONE PROJECT 2
+AI-POWERED HEALTH DIAGNOSTIC ASSISTANT
+ 
+INTRODUCTION
+The healthcare sector generates vast amounts of patient data, including symptoms, medical histories, laboratory reports, and diagnostic records. However, access to timely medical consultation remains a challenge for many individuals, especially in remote and underserved regions. Patients often rely on self-assessment or online information, which may lead to confusion, misinformation, and delayed treatment.
+Artificial Intelligence has emerged as a powerful technology capable of analyzing health-related data and identifying patterns that may assist in preliminary health assessment. By leveraging machine learning and data analytics, AI systems can support users by providing insights based on symptoms and historical healthcare information.
+This project explores the application of Artificial Intelligence in healthcare by developing an intelligent assistant capable of analyzing user-provided health information and supporting preliminary decision-making processes.
+PROBLEM STATEMENT
+Millions of individuals seek health-related information online before consulting medical professionals. However, the reliability of self-diagnosis is often limited, and patients may struggle to identify potential health conditions accurately based on symptoms alone.
+Healthcare providers and patients require intelligent tools that can assist in organizing symptom information, identifying possible health risks, and supporting informed healthcare decisions while ensuring that professional medical consultation remains essential.
+How can an AI-powered health diagnostic assistant be developed to analyze health-related information and provide meaningful preliminary insights that support healthcare awareness and decision-making?
+SCOPE OF WORK
+In Scope
+Collection and preprocessing of healthcare datasets.
+Symptom analysis and pattern recognition.
+Disease prediction or risk assessment.
+Medical data visualization and reporting.
+Development of a user-friendly interaction interface.
+AI model evaluation and performance analysis.
+Integration with Google tools for collaboration and project management.
+Out of Scope
+Clinical diagnosis or treatment prescription.
+Emergency healthcare decision-making.
+Integration with hospital information systems.
+Electronic health record management.
+Medical device development.
+SUGGESTED TECHNOLOGIES
+Programming Language
+Python
+
+AI & Machine Learning
+Scikit-Learn
+TensorFlow
+Keras
+PyTorch
+
+Data Processing
+
+Pandas
+NumPy
+Visualization
+Matplotlib
+Seaborn
+Plotly
+
+Natural Language Processing (Optional)
+NLTK
+spaCy
+Transformers
+Dashboard Development
+Streamlit
+Flask
+
+Cloud & Development
+Google Colab
+GitHub
+
+Google Workspace Integration
+Google Drive
+Google Sheets
+Google Forms
+Google Sites
+Google Meet
+Google Classroom
+
+Suggested Datasets
+Disease Symptom Dataset
+Healthcare Prediction Datasets
+Kaggle Medical Datasets
+Public Health Data Repositories
+EXPECTED OUTCOMES
+AI-powered healthcare assistant prototype.
+Disease prediction or risk assessment model.
+Interactive health assessment interface.
+Healthcare analytics and visualization dashboard.
+Performance evaluation reports.
+Documentation and project presentation.
+Source code repository and supporting resources.
+LEARNING OUTCOMES
+Understanding of AI applications in healthcare.
+Experience with classification and prediction models.
+Knowledge of healthcare data analysis.
+Practical exposure to medical AI systems.
+Skills in building user-centric AI applications
+CONCLUSION
+This project demonstrates how Artificial Intelligence can support healthcare by analyzing symptoms and health-related information to provide preliminary health insights. The developed system assists users in understanding possible health risks, promotes healthcare awareness, and supports informed decision-making while emphasizing the importance of professional medical consultation. The project highlights the potential of AI in improving accessibility, efficiency, and data-driven healthcare support.
+

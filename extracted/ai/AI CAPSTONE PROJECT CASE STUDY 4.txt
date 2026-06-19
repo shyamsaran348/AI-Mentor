@@ -1,0 +1,102 @@
+AI CAPSTONE PROJECT 4
+ AI-BASED RESUME SCREENING SYSTEM
+ 
+INTRODUCTION
+Recruitment is a critical process for organizations seeking qualified talent in an increasingly competitive job market. As companies receive hundreds or even thousands of applications for a single position, manually reviewing resumes becomes a time-consuming and resource-intensive task. Human recruiters often face challenges in identifying suitable candidates efficiently while ensuring consistency and fairness throughout the screening process.
+Artificial Intelligence has the potential to streamline recruitment by automatically analyzing resumes, extracting relevant information, comparing candidate profiles against job requirements, and assisting recruiters in identifying suitable applicants. Intelligent screening systems can improve efficiency, reduce manual effort, and support data-driven hiring decisions.
+This project explores the application of Artificial Intelligence in recruitment and talent acquisition by developing a system capable of analyzing resumes and assisting in candidate evaluation.
+PROBLEM STATEMENT
+Organizations often receive a large volume of job applications, making it difficult for recruiters to manually evaluate every candidate efficiently. Traditional screening methods may lead to increased hiring time, inconsistent evaluations, and difficulties in identifying the most suitable applicants.
+Recruitment teams require intelligent systems capable of processing resume information, identifying relevant qualifications, and supporting candidate shortlisting based on predefined criteria.
+How can an AI-powered resume screening system be developed to analyze candidate profiles, evaluate their suitability for specific roles, and assist recruiters in making informed hiring decisions?
+
+SCOPE OF WORK
+In Scope
+Resume collection and preprocessing.
+Extraction of skills, qualifications, and experience.
+Analysis of job descriptions and candidate profiles.
+Candidate ranking and matching.
+Resume scoring and recommendation generation.
+Recruitment analytics and reporting.
+Dashboard development for recruiter interaction.
+Integration with Google tools for collaboration and project management.
+Out of Scope
+Automated hiring decisions.
+Background verification and reference checks.
+Interview scheduling and management.
+Employee performance evaluation.
+Integration with commercial recruitment platforms.
+SUGGESTED TECHNOLOGIES
+Programming Language
+Python
+
+AI & Machine Learning
+Scikit-Learn
+TensorFlow
+PyTorch
+
+Data Processing
+
+Pandas
+NumPy
+
+Text Analytics
+
+TF-IDF
+Word Embeddings
+Cosine Similarity
+
+Visualization
+
+Matplotlib
+Plotly
+Seaborn
+
+Natural Language Processing 
+NLTK
+spaCy
+Transformers
+Dashboard Development
+Streamlit
+Flask
+
+Dashboard Development
+Streamlit
+Flask
+
+Cloud & Development
+Google Colab
+GitHub
+
+Google Workspace Integration
+Google Drive
+Google Sheets
+Google Forms
+Google Sites
+Google Meet
+Google Classroom
+
+Suggested Datasets
+Resume Datasets from Kaggle
+Job Description Datasets
+HR Analytics Datasets
+Public Recruitment Data Repositories
+EXPECTED OUTCOMES
+AI-powered predictive maintenance prototype.
+Equipment health monitoring system.
+Failure prediction and anomaly detection model.
+Maintenance analytics dashboard.
+Equipment performance reports and visualizations.
+Model performance evaluation results.
+LEARNING OUTCOMES
+ AI-powered resume screening prototype.
+ Candidate matching and ranking system.
+ Resume analysis and recommendation engine.
+ Recruitment analytics dashboard.
+ Performance evaluation and comparison reports.
+ Project documentation and presentation.
+ Source code repository and supporting resources.
+CONCLUSION
+This project demonstrates how Artificial Intelligence can improve the recruitment process by automatically analyzing resumes and matching candidates with job requirements. The developed system assists recruiters in identifying suitable candidates more efficiently, reducing manual effort and screening time. The project highlights the role of AI and Natural Language Processing in supporting data-driven and effective talent acquisition processes.
+
+

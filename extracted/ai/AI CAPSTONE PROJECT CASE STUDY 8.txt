@@ -1,0 +1,91 @@
+AI CAPSTONE PROJECT 8
+AI TUTOR FOR PERSONALIZED LEARNING
+ 
+INTRODUCTION
+Education is rapidly evolving with the integration of digital technologies and intelligent learning systems. Traditional learning environments often follow a one-size-fits-all approach, where all students receive the same content and learning pace regardless of their individual strengths, weaknesses, and learning preferences. As a result, some students may struggle to keep up, while others may not be sufficiently challenged.
+Artificial Intelligence has the potential to transform education by creating personalized learning experiences tailored to individual student needs. Intelligent tutoring systems can analyze student performance, identify learning gaps, provide adaptive recommendations, and deliver customized learning pathways. This project focuses on exploring how AI can be used to support personalized education and improve learning outcomes.
+PROBLEM STATEMENT
+Students have diverse learning styles, abilities, and rates of understanding. Traditional educational methods often find it difficult to address the unique needs of every learner, resulting in inconsistent learning outcomes and reduced engagement.
+Educational institutions require intelligent systems capable of monitoring student progress, identifying areas of improvement, and adapting learning content based on individual performance.
+How can an AI-powered tutoring system be developed to personalize learning experiences, provide adaptive recommendations, and support student learning effectively?
+SCOPE OF WORK
+In Scope
+Student performance analysis.
+Personalized learning recommendations.
+Adaptive quiz and assessment generation.
+Progress tracking and performance monitoring.
+Learning path customization.
+Dashboard development for students and educators.
+Integration with Google tools for collaboration and reporting.
+
+Out of Scope
+Official examination systems.
+Academic grading automation.
+Learning Management System (LMS) replacement.
+Institutional student record management.
+Direct integration with school databases.
+SUGGESTED TECHNOLOGIES
+Programming Language
+Python
+
+AI & Machine Learning
+Scikit-Learn
+TensorFlow
+PyTorch
+
+Natural Language Processing
+Transformers
+Hugging Face
+NLTK
+spaCy
+
+Generative AI (Optional)
+Gemini API
+Hugging Face Models
+Open-Source LLMs
+
+Data Processing
+Pandas
+NumPy
+
+Visualization
+Matplotlib
+Plotly
+Seaborn
+
+Dashboard Development
+Streamlit
+Flask
+
+Cloud & Development
+Google Colab
+GitHub
+
+Google Workspace Integration
+Google Drive
+Google Sheets
+Google Forms
+Google Sites
+Google Meet
+Google Classroom
+
+Suggested Data Sources
+Student performance datasets
+Educational assessment datasets
+Custom quiz and learning datasets
+EXPECTED OUTCOMES
+AI-powered personalized tutoring prototype.
+Student performance analysis system.
+Adaptive recommendation engine.
+Interactive learning dashboard.
+Learning progress reports and analytics.
+Performance evaluation results.
+Project documentation and presentation.
+Source code repository and project resources.
+LEARNING OUTCOMES
+Understanding of AI applications in education.
+Experience with recommendation systems.
+Knowledge of adaptive learning techniques.
+Practical exposure to educational technology solutions.
+Skills in developing user-centric AI applications.
+

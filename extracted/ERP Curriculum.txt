@@ -1,0 +1,54 @@
+Zubair
+Program Structure:
+Type Hours
+Theoretical Instruction 100
+Practical Hands-on Labs 160
+Soft Skills & Career Prep 40
+Total 300
+Gnaniyar Zubair A2000 India
+Detailed Module Plan
+Module Duration Theory Hours Practical Station Used
+Hours
+Module 1: 8 Hours 6 2 ERP Basics
+Introduction to Station
+ERP
+Module 2: ERP 12 Hours 4 8 Industry Use
+Applications in Case Lab
+Business
+Module 3: ERP 15 Hours 5 10 Core ERP
+Modules Station
+Overview
+Module 4: 20 Hours 5 15 CRM Station
+Sales
+Management in
+ERP
+Module 5: 20 Hours 5 15 Procurement Lab
+Procurement &
+Vendor
+Management
+Module 6: 25 Hours 6 19 Warehouse &
+Inventory Inventory Station
+Management
+Module 7: 20 Hours 5 15 Finance Station
+Accounts
+Payable &
+Invoicing
+Module 8: 25 Hours 5 20 Ledger Station
+Accounts
+Receivable &
+Ledger
+Module 9: 20 Hours 5 15 Budgeting
+Financial Station
+Management &
+Budgeting
+Module 10: 10 Hours 8 2 Planning/DevOps
+ERP Station
+Implementation
+& Best
+Practices
+Module 11: 25 Hours 0 25 Multi-Module
+Real-World Integration
+ERP Project
+Module 12: 40 Hours – 40 Soft Skills Lab
+Communication
+& Career Skills

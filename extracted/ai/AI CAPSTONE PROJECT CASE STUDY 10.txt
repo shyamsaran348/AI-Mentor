@@ -1,0 +1,93 @@
+AI CAPSTONE PROJECT 10
+FACE RECOGNITION FOR ROBOT INTERACTION
+ 
+INTRODUCTION
+Humanoid robots and intelligent robotic systems are increasingly being used in education, healthcare, customer service, hospitality, and industrial environments. For robots to interact effectively with humans, they must be capable of recognizing individuals and responding appropriately. Face recognition technology enables robots to identify users, personalize interactions, and improve user engagement by providing context-aware responses.
+Artificial Intelligence and Computer Vision play a significant role in enabling robots to detect, recognize, and track human faces in real time. This project focuses on exploring how AI-powered face recognition can be integrated into robotic systems to create intelligent and personalized human-robot interactions.
+PROBLEM STATEMENT
+Human-robot interaction becomes more effective when robots can recognize individuals and adapt their responses accordingly. Traditional robotic systems often provide the same interaction experience to every user, limiting personalization and engagement.
+There is a need for intelligent robotic systems capable of identifying individuals, recognizing returning users, and supporting personalized interactions in various environments such as classrooms, offices, hospitals, and customer service centers.
+How can an AI-powered face recognition system be developed to enable robots to identify users and support intelligent, personalized human-robot interactions?
+SCOPE OF WORK
+In Scope
+Face detection and recognition.
+User identification and authentication.
+Real-time camera-based interaction.
+Personalized response generation.
+Face dataset creation and preprocessing.
+Interaction monitoring and reporting.
+Integration with Google tools for collaboration and documentation.
+
+Out of Scope
+Security-critical authentication systems.
+Law enforcement surveillance applications.
+Large-scale facial recognition infrastructure.
+Biometric access control systems.
+Commercial robot manufacturing.
+SUGGESTED TECHNOLOGIES
+Programming Language
+Python
+
+AI & Machine Learning
+TensorFlow
+PyTorch
+Scikit-Learn
+
+Computer Vision
+OpenCV
+Dlib
+Face Recognition Library
+MediaPipe
+
+Deep Learning
+FaceNet
+MobileFaceNet
+ResNet
+
+Robotics Platforms (Optional)
+NAO Robot
+Bioloid Robot Kit
+Raspberry Pi-Based Robots
+Virtual Robot Simulators
+
+Data Processing
+Pandas
+NumPy
+
+Dashboard Development
+Streamlit
+Flask
+
+Cloud & Development
+Google Colab
+GitHub
+
+Google Workspace Integration
+Google Drive
+Google Sheets
+Google Forms
+Google Sites
+Google Meet
+Google Classroom
+
+Suggested Datasets
+LFW (Labeled Faces in the Wild)
+VGGFace2
+Custom Face Datasets
+Open Face Recognition Datasets
+EXPECTED OUTCOMES
+AI-powered face recognition prototype.
+Real-time face identification system.
+Human-robot interaction demonstration.
+User recognition and interaction analytics.
+Interactive dashboard and reporting system.
+Performance evaluation report.
+Project documentation and presentation.
+Source code repository and supporting resources.
+LEARNING OUTCOMES
+Understanding of face recognition technologies.
+Experience with computer vision and biometric systems.
+Knowledge of human-robot interaction concepts.
+Practical exposure to real-time AI applications.
+Skills in designing intelligent robotic systems.
+

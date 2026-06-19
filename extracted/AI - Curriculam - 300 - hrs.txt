@@ -1,0 +1,122 @@
+
+Program Structure:
+
+Theory: 100 Hours
+
+Practical: 200 Hours (includes 40 hours of training at the Technology Hub; the remaining 160 hours delivered through the Outreach Center)
+
+
+
+
+
+Detailed Module Plan
+
+Module 1: Fundamentals of AI & Engineering Concepts
+Theory Topics:
+AI history and evolution, symbolic vs. neural AI
+Robotics basics: sensors, actuators, and control systems
+Engineering principles for problem-solving using AI
+
+Practical Tasks:
+Build simple robots with STEM kits
+Program basic motion and obstacle avoidance
+
+Module 2: AI and Augmented/Virtual Reality
+Theory Topics:
+Fundamentals of AR/VR and mixed reality
+Role of computer vision in AR/VR
+Enhancing immersion using AI-generated environments
+
+Practical Tasks:
+Build AR/VR scenes using Blockly or Unity-based tools
+Train simple AI to interact within virtual environments
+
+
+
+Module 3: Python Programming & AI Logic Development
+Theory Topics:
+Python basics: variables, loops, data types
+AI logic: conditionals, states, and search algorithms
+Supervised learning vs. unsupervised learning
+
+Practical Tasks:
+Program logic-based games with block coding & Python
+Implement mini-projects using scikit-learn or TensorFlow Lite
+
+Module 4: Humanoid Robotics & AI Motion Planning
+Theory Topics:
+Vision-based navigation & face detection
+NLP for interaction with humanoid robots
+Motion planning algorithms (A*, Dijkstra)
+
+Practical Tasks:
+Program NAO/Alpha Mini for speech interaction and movements
+Facial expression mimicry using AI models
+
+Module 5: AI for Smart & Autonomous Transportation
+Theory Topics:
+Self-driving car architecture
+AI for route optimization & collision prediction
+Drone-based data analysis
+
+Practical Tasks:
+Program Zumi car to navigate real-world layouts
+Simulate traffic signals and autonomous drone delivery
+
+
+
+Module 6: AI for Industry 4.0 & Manufacturing
+Theory Topics:
+Cyber-physical systems and predictive maintenance
+AI for quality control & defect detection
+Digital twins and simulation with AI
+
+Practical Tasks:
+Use Dobot for pick-and-place operations
+Train AI models for object classification on the line
+
+Module 7: AI in IoT
+Theory Topics:
+AI + IoT architecture and data pipelines
+Edge AI, TinyML, and sensor integration
+Security and encryption in smart devices
+
+Practical Tasks:
+Build smart home devices with AI triggers
+Deploy ML models on microcontrollers (ESP32/Raspberry Pi)
+
+Module 8: AI & Projected Reality (Spatial Computing)
+Theory Topics:
+Projection mapping and AI interactions
+Gesture and speech control in projected interfaces
+AI in education and digital twins
+
+Practical Tasks:
+Create interactive learning environments
+Control AI avatars using real-time projections
+
+
+
+Module 9: AI in Esports and Game Development
+Theory Topics:
+NPC behavior modeling and reinforcement learning
+Game AI frameworks and emotion-based design
+Real-time analytics for Esports performance
+
+Practical Tasks:
+Build multiplayer AI agents
+Analyze game performance using tracking data
+
+Module 10: AI Ethics, Explainability, and Prompt Engineering
+Theory Topics:
+Ethical AI, bias detection, and fairness
+Explainable AI (XAI) models and tools
+Introduction to Prompt Engineering for GenAI tools
+
+Practical Tasks:
+Use LIME/SHAP for model explanation
+Build prompts for ChatGPT/Bard to automate academic/research tasks
+
+Capstone Project
+Objective: Cross-functional project integrating at least two stations (e.g., IoT + Robotics or AR/VR + Game Dev)
+Deliverables: Final report, deployment-ready prototype, demo video, and pitch deck
