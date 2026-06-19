@@ -9,7 +9,7 @@ def add_code(text):
     cells.append({"cell_type": "code", "execution_count": None, "metadata": {}, "outputs": [], "source": [line + "\n" for line in text.split("\n")]})
 
 add_md("# Phase 3: Capstone Mentor AI Fine-Tuning\nThis notebook fine-tunes the Qwen 2.5 7B Instruct model using your `train.jsonl` dataset.\n\n### Step 1: Install Dependencies\nWe use Unsloth because it makes training twice as fast and uses significantly less memory.")
-add_code("!pip install \"unsloth[kaggle-new] @ git+https://github.com/unslothai/unsloth.git\"\n!pip install --no-deps \"xformers<0.0.27\" \"trl<0.9.0\" peft accelerate bitsandbytes")
+add_code("!pip install \"unsloth[kaggle-new] @ git+https://github.com/unslothai/unsloth.git\"\n!pip install --no-deps \"trl<0.9.0\" peft accelerate bitsandbytes")
 
 add_md("### Step 2: Load the Base Model from Hugging Face\nThis downloads the 15GB model directly to Kaggle's servers in about 60 seconds.")
 add_code("from unsloth import FastLanguageModel\nimport torch\n\nmax_seq_length = 2048 # Good for our prompt length\n\nmodel, tokenizer = FastLanguageModel.from_pretrained(\n    model_name = \"unsloth/Qwen2.5-7B-Instruct-bnb-4bit\", # 4-bit compressed version\n    max_seq_length = max_seq_length,\n    dtype = None,\n    load_in_4bit = True,\n)\n\n# Configure LoRA Adapters (which layers to train)\nmodel = FastLanguageModel.get_peft_model(\n    model,\n    r = 16,\n    target_modules = [\"q_proj\", \"k_proj\", \"v_proj\", \"o_proj\", \"gate_proj\", \"up_proj\", \"down_proj\"],\n    lora_alpha = 16,\n    lora_dropout = 0,\n    bias = \"none\",\n    use_gradient_checkpointing = \"unsloth\",\n    random_state = 3407,\n    use_rslora = False,\n    loftq_config = None,\n)")
