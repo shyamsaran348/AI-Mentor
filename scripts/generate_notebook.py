@@ -13,7 +13,7 @@ add_code("""import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 !pip install "unsloth[kaggle-new] @ git+https://github.com/unslothai/unsloth.git"
-!pip install --no-deps "trl<0.9.0" peft accelerate bitsandbytes""")
+!pip install --no-deps peft accelerate bitsandbytes""")
 
 add_md("### Step 2: Load the Base Model from Hugging Face\nThis downloads the 15GB model directly to Kaggle's servers in about 60 seconds.")
 add_code("from unsloth import FastLanguageModel\nimport torch\n\nmax_seq_length = 1024 # Reduced to 1024 to save memory on 15GB GPUs\n\nmodel, tokenizer = FastLanguageModel.from_pretrained(\n    model_name = \"unsloth/Qwen2.5-7B-Instruct-bnb-4bit\", # 4-bit compressed version\n    max_seq_length = max_seq_length,\n    dtype = None,\n    load_in_4bit = True,\n)\n\n# Configure LoRA Adapters (which layers to train)\nmodel = FastLanguageModel.get_peft_model(\n    model,\n    r = 16,\n    target_modules = [\"q_proj\", \"k_proj\", \"v_proj\", \"o_proj\", \"gate_proj\", \"up_proj\", \"down_proj\"],\n    lora_alpha = 16,\n    lora_dropout = 0,\n    bias = \"none\",\n    use_gradient_checkpointing = \"unsloth\",\n    random_state = 3407,\n    use_rslora = False,\n    loftq_config = None,\n)")
