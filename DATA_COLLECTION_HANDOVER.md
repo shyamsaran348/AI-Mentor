@@ -2,22 +2,18 @@
 
 Welcome to the AI Capstone Mentor project! We have officially completed the prototype phase. The fine-tuning pipeline works perfectly, and the model has proven it can learn the "Socratic Mentor" persona.
 
-Our current focus is **Phase 4: Mass Data Collection**. We need to generate a total of **9,000 project-specific samples** across our 60 case studies.
+Our current focus is **Phase 4: Mass Data Collection**. We need to generate a massive dataset using Claude.
 
-## 📂 The Raw Data
-All raw project case studies are located in:
-`raw/projects/<Domain>/`
-(e.g., `raw/projects/AI/AI CAPSTONE PROJECT CASE STUDY 1.docx`)
+---
 
-## 🎯 The Goal
-For every single `.docx` file, we need to generate **150 JSONL samples** representing realistic student-mentor conversations.
+## 🅰️ PART 1: Project-Specific Samples (9,000 total)
+**Goal:** 150 samples for each of the 60 capstone projects.
+**Raw Data:** `raw/projects/<Domain>/` (e.g., `.docx` case studies)
 
-## 🚀 How to Generate the Dataset (Using Claude Browser)
-
-Because Claude has strict output limits, you cannot ask for all 150 samples at once. You must generate them **50 at a time** in 3 batches.
+Because Claude has strict output limits, generate them **50 at a time** in 3 batches.
 
 ### **Step 1: The Master Prompt (First 50 Samples)**
-Upload the specific `.docx` file for the project to Claude, and paste this exact prompt:
+Upload the `.docx` file for ONE project to Claude, and paste this prompt:
 
 ```text
 I am building a fine-tuning dataset for an "AI Capstone Mentor" LLM. The goal of this model is to guide students through their 300-hour capstone curriculum, answer technical doubts, provide troubleshooting help, and conduct Viva preparations, all without "spoon-feeding" them the final code. It must act like a Socratic teacher.
@@ -39,25 +35,46 @@ Generate exactly 50 training samples in strict JSONL format based on the documen
 
 **DATASET DISTRIBUTION (For these 50 samples):**
 Generate diverse scenarios representing a student interacting with the mentor. Distribute them as follows:
-- 15x Mentoring / Module Guidance (Student asks what to do next or how a module works)
-- 15x Troubleshooting (Invent highly realistic coding errors, API failures, or logic bugs based on the tech stack in the document. The mentor must guide them to the solution, not just write the code)
-- 10x Viva / Academic Support (The mentor asks the student a tough architecture/design question, or the student asks how to prepare)
-- 10x Context Discovery (The student asks a vague question like "I have an error", and the mentor asks clarifying questions to find out they are working on this specific project)
-
-**FEW-SHOT EXAMPLES (Mimic this exact JSONL structure and mentor persona):**
-{"messages": [{"role": "system", "content": "You are Capstone Mentor AI. Your responsibility is to mentor students using ONLY the provided project context. Do not invent project details. Use the provided context as the source of truth. If context is missing, ask clarifying questions. Behave like an educational mentor.\n\n[PROJECT CONTEXT START]\nProject Name: Real-Time Sentiment Analysis of Social Media\nDomain: AI\nObjective: To develop an AI-based sentiment analysis...\n[PROJECT CONTEXT END]"}, {"role": "user", "content": "Can you write the API connection code for me? I'm stuck."}, {"role": "assistant", "content": "I understand you're stuck on the API connection, but my role is to guide you, not write the code for you. Let's break it down together. Are you using the `requests` library in Python, and have you checked the official documentation for how to pass headers?"}]}
+- 15x Mentoring / Module Guidance (Student asks what to do next)
+- 15x Troubleshooting (Invent highly realistic coding errors based on the tech stack. Guide them to the solution, don't write the code)
+- 10x Viva / Academic Support (Mentor asks a tough architecture question)
+- 10x Context Discovery (Student asks a vague question, mentor asks clarifying questions)
 
 Please begin outputting the 50 JSONL lines now based on the attached document.
 ```
 
-### **Step 2: Second Batch (Next 50 Samples)**
-Once Claude finishes the first 50, reply with:
-> "Perfect. Now generate 50 MORE entirely new samples for this same project. Focus heavily on edge-case bugs, deployment issues, and advanced Viva questions. Every `system` message MUST still contain the `[PROJECT CONTEXT]` block. Output ONLY the raw JSONL."
+### **Step 2 & 3: Batches 2 and 3**
+- Reply: *"Perfect. Generate 50 MORE entirely new samples for this project. Focus heavily on edge-case bugs and deployment issues. Every `system` message MUST still contain the `[PROJECT CONTEXT]` block. Output ONLY the raw JSONL."*
+- Reply: *"Excellent. Generate the final 50 samples. Focus on beginner mistakes and environment setup errors. Every `system` message MUST still contain the `[PROJECT CONTEXT]` block. Output ONLY raw JSONL."*
 
-### **Step 3: Final Batch (Last 50 Samples)**
-Finally, reply with:
-> "Excellent. Generate the final 50 samples for this project. Focus on beginner mistakes, environment setup errors, and time management panics. Every `system` message MUST still contain the `[PROJECT CONTEXT]` block. Output ONLY raw JSONL."
+---
 
-### **Step 4: Save & Compile**
-Copy all 150 JSONL objects generated by Claude and save them to a `.jsonl` file for that specific project inside `datasets/`. Repeat this for all 60 projects!
+## 🅱️ PART 2: General Curriculum Samples (1,000 total)
+**Goal:** Teach the model the 300-hour theoretical syllabus.
+**Raw Data:** Since a 300-hour curriculum is too massive to upload at once, you must process it **Module by Module** (e.g., Python Basics, Machine Learning, Cloud Deployment).
+
+### **The Curriculum Prompt**
+Upload the PDF/Document for a **specific Module/Chapter**, and paste this prompt:
+
+```text
+I am building a fine-tuning dataset for an "AI Capstone Mentor" LLM. 
+I have attached a chapter/module from our official 300-hour curriculum.
+
+**FIRST TASK: CONTEXT EXTRACTION**
+Extract the core learning objectives and theoretical concepts from the attached document and create a `[CURRICULUM CONTEXT]` block.
+
+**SECOND TASK: GENERATION**
+Generate exactly 50 training samples in strict JSONL format based on this curriculum module.
+
+**CRITICAL FORMATTING RULES:**
+1. Output ONLY raw JSON objects. 
+2. DO NOT wrap the output in markdown blocks (no ```json). 
+3. Each line must be a standalone JSON object starting with `{"messages": [` and ending with `]}`.
+4. **EVERY SINGLE `system` message MUST contain the exact `[CURRICULUM CONTEXT]` block you generated.**
+
+**DATASET DISTRIBUTION:**
+- 25x Theory Explanation (Student asks to explain a complex concept from the document. The mentor uses the Socratic method to guide them).
+- 25x Syntax/Concept Troubleshooting (Student has a fundamental misunderstanding of a concept taught in this module. Mentor corrects them gently).
+
+Please begin outputting the 50 JSONL lines now.
 ```
